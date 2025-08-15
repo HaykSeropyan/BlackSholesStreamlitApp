@@ -1,7 +1,8 @@
 streamlit 
 pandas 
 numpy 
-scipy>=1.0.0
+scipy
 
 matplotlibseaborn
+
 
