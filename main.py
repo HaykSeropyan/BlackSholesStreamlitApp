@@ -115,7 +115,7 @@ def load_data():
 def home():
     st.title("📈 Options Pricing & Analysis App")
     st.subheader("Powered by the Black-Scholes Model")
-    st.image("./pics/option_trading.jpg")
+    st.image("./option_trading.jpg")
     st.markdown("""
     Welcome to the **Options Pricing & Analysis App**.  
     This tool lets you:
@@ -171,7 +171,7 @@ def home():
     st.subheader("Please remember that this a model and should not be used to make finacial desision.")
     st.subheader("Options are extreamly risky so it is really easy to lose alot of money, really fast.")
     st.subheader("here is a [PDF](%s) of just on how risky it can get" % 'https://www.theocc.com/getmedia/a151a9ae-d784-4a15-bdeb-23a029f50b70/riskstoc.pdf')
-    st.image("./pics/losing_money.jpg")
+    st.image("./losing_money.jpg")
     st.markdown("""
     Options are financial contracts that give you the right, but not the obligation, to buy (Call) or sell (Put) an underlying asset at a predetermined price (strike price) before or at a specific date (expiration).
 
@@ -336,3 +336,4 @@ def home():
 
 if __name__ == "__main__":
     home()
+
