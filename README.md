@@ -1,5 +1,5 @@
 # BlackSholesStreamlitApp
-A Streamlet app that calculates the call and putt price of the SPX index as well as its greeks. Displays a PnL graph as well as well
+A Streamlet app that calculates the call and put price of the SPX index as well as its greeks. Displays a PnL graph as well as well
 
 This app/dashboard uses a mathematical model (the Black-Sholes Equation) to come up with a good estimate for a call option price or a put option price. The model makes a lot of assumptions about the underlying assets so it is not perfect to use in a real-world scenario but still offers good insight into what a fair market price for the option should be. Anyone interested in finance is very familiar with this equation and many quantitative firms have come about because of this very important formula. 
 
