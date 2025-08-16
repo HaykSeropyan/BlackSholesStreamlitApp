@@ -1,3 +1,4 @@
+--prefer-binary
 streamlit==1.28.2
 pandas==1.5.3
 numpy==1.23.5
